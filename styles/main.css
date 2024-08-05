@@ -80,6 +80,11 @@ main{
     overflow: hidden;
     word-wrap:break-word;
     margin-right: 5px;
+    
+}
+
+.quote{
+    margin: 0;
 }
 
 

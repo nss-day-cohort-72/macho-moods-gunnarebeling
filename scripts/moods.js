@@ -10,8 +10,8 @@ export const createMoodHTML = () => {
                       <div class="macho-advice">
                         <span class="macho-advice-title">MachoAdvice:</span>
                         <div class="quotes">
-                            <p class="quote">${mood.quotes[0]}</p>
-                            <p class="quote">${mood.quotes[1]}</p>
+                            <p class="quote">"${mood.quotes[0]}"<br><br></p>
+                            <p class="quote">"${mood.quotes[1]}"</p>
                         </div>
                       </div>
                     </div>`
@@ -21,4 +21,4 @@ export const createMoodHTML = () => {
     moodHTML += `</div>`
     return moodHTML
 
-}
+} 
